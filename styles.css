@@ -1,0 +1,176 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header1 { /*refers to the header logo */
+background-color: #1F2937;
+color: #F9FAF8;
+padding: 120px;
+padding-top: 20px;
+font-size:24px;
+}
+
+
+.header2 { /* refers to this website is awesome block */
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 120px;
+    margin-top: -180px;
+    }
+
+.description { /*first line of sentence */
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.descriptionsecond { /* second line of sentence */
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.button1 { /* the first sign up button */
+    border-style: none; 
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bmwm5 { 
+    height: 200px;
+    width:400px;
+    margin-left:700px;
+}
+
+/*ul, a {
+display: inline-flex;   
+justify-content: space-between;
+text-decoration: none;
+color: #E5E7EB;
+font-size: 18px;
+list-style: none;
+margin-left: 295px;
+}*/
+
+ul {  /* insert description or what this edit does */
+    list-style: none;
+    display:inline-flex;
+    margin-left: 700px;
+    padding-bottom: 70px;
+}
+
+li { /*edits the list  items property */
+    margin-left: 12px;
+}
+
+a { /* this only edits the links property itself */ 
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+.title {  /* edits the this website is awesome block */
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    padding-top: 10px;
+}
+ 
+.header3 { /* edits the block some random information as a whole */
+    font-weight:bolder;
+    font-size: 36px;
+    color:#1F2937;
+    text-align: center;
+    margin-top: 65px;
+}
+
+/*.header3 {
+    border-style:solid;
+    border-color: black;  
+}*/
+
+.flex-container { /* currently edits the 4 containers as well so NEEDS fixing */
+    margin-top: 65px;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 550px;
+    margin-left: 550px;
+    align-items: center;
+
+    
+    
+}
+
+/*.flex-container div {
+    display: flex;
+    flex: auto;
+    border-style:solid;
+    border-color:skyblue;
+    width: 400px;
+    height: 190px;
+    border-radius: 20px;
+}*/
+
+.header4 {
+    height: 290px;
+    background-color: #E5E7EB;
+    margin-top: 170px;
+    padding-bottom: 50px;
+}
+
+.quotecontainer {
+    text-align: center;
+    padding: 80px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.author {
+    display:block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/*.header5 {
+    margin:100px;
+    border: solid;
+}
+
+.container {
+    text-align: center;
+    text-align: left;
+    margin-left: 310px;
+    color: #3882F6
+}
+
+.secondcontainer {
+    text-align: center;
+    text-align: left;
+    margin-left: 310px;
+}*/
+
+.header5 { 
+    border-style:none;
+    border-radius: 12px;
+    margin: 100px; 
+    padding: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: #3882F6;  
+    
+}
+
+.button2 {
+    margin-left: 480px;
+    margin-bottom: 20px;
+}
