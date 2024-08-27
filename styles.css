@@ -41,9 +41,10 @@ font-size:24px;
 }
 
 .bmwm5 { 
-    height: 300px;
-    width:500px;
+    height: 200px;
+    width:400px;
     float: right;
+    margin-bottom: 15px;
 }
 
 /*ul, a {
@@ -59,7 +60,7 @@ margin-left: 295px;
 ul {  /* insert description or what this edit does */
     list-style: none;
     display:inline-flex;
-    margin-left: 700px;
+    margin-left: 1200px;
     padding-bottom: 70px;
 }
 
@@ -96,8 +97,10 @@ a { /* this only edits the links property itself */
 }*/
 
 .flex-container { /* currently edits the 4 containers as well so NEEDS fixing */
+    /*border-style: solid;*/
     margin-top: 65px;
     display: flex;
+    flex: auto;
     justify-content:space-between;
     margin-right: 550px;
     margin-left: 550px;
@@ -115,7 +118,27 @@ a { /* this only edits the links property itself */
     width: 400px;
     height: 190px;
     border-radius: 20px;
+    margin: 15px;
 }*/
+
+.first-subtext, .second-subtext, .third-subtext, .fourth-subtext{
+    font-size: 12px;
+    margin-top: 200px;
+    margin-left: 45px;
+}
+
+.bmwe30, .bmwe39, .bmwe24, .bmwe21 {
+    display: flex;
+    flex: auto;
+    border-style: solid;
+    border-color: skyblue;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    
+    
+}
 
 .header4 {
     height: 290px;
