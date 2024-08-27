@@ -101,41 +101,41 @@ a { /* this only edits the links property itself */
     margin-top: 65px;
     display: flex;
     flex: auto;
-    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
     margin-right: 550px;
     margin-left: 550px;
     align-items: center;
+    margin-bottom: 2px;
 
     
     
 }
 
 /*.flex-container div {
-    display: flex;
-    flex: auto;
-    border-style:solid;
-    border-color:skyblue;
-    width: 400px;
-    height: 190px;
-    border-radius: 20px;
-    margin: 15px;
+    justify-content: space-between;
 }*/
 
 .first-subtext, .second-subtext, .third-subtext, .fourth-subtext{
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 200px;
-    margin-left: 45px;
+    margin-left: 43px;
+    
 }
 
 .bmwe30, .bmwe39, .bmwe24, .bmwe21 {
+    margin-bottom: 8px;
     display: flex;
-    flex: auto;
+    align-content: center;
     border-style: solid;
     border-color: skyblue;
     border-radius: 20px;
     height: 200px;
     width: 200px;
     object-fit: cover;
+    justify-content: space-between;
+    gap: 8px;
+    
     
     
 }
@@ -195,6 +195,20 @@ a { /* this only edits the links property itself */
 }
 
 .button2 {
-    margin-left: 480px;
+    margin-left: 780px;
+    margin-bottom: 30px;
+}
+
+.info {
     margin-bottom: 20px;
+}
+
+.call {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sign {
+    font-size: 18px;
+    color: #F9FAF8;
 }
